@@ -7,7 +7,7 @@
 import java.time.LocalDateTime; 
 import java.util.Scanner;  
 
-public class task_1 {     
+public class task_1_time_name {     
     public static void main(String[] args)     {        
         Scanner iScanner = new Scanner(System.in, "CP866");        
         System.out.printf("name: ");        

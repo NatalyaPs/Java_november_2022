@@ -31,7 +31,7 @@ public class hw_1_3_calculator {
         char c = iScanner.next().charAt(0);
 
         if (c == '+') 
-            System.out.printf("%f + %f = %f", a, b, (sum(a, b)));   // %2f почему-то не сработало для округления до 2 чисел после запятой?
+            System.out.printf("%f + %f = %f", a, b, (sum(a, b)));   // %.2f почему-то не сработало для округления до 2 чисел после запятой?
         else if (c == '-') 
             System.out.printf("%f - %f = %f", a, b, (difference(a, b))); 
         else if (c == '*') 

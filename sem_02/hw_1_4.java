@@ -1,6 +1,6 @@
 package sem_02;
 
-public class h_W-1_4 {
+public class hw_1_4 {
 
     
 }
