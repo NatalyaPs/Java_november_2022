@@ -1,6 +1,6 @@
 package lec_03;
 import java.util.ArrayList;
-public class Ex002 {
+public class Ex002array_list_ {
 
    public static void main(String[] args) {
        ArrayList<Integer> list = new ArrayList<Integer>();

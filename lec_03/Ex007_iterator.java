@@ -2,7 +2,7 @@ package lec_03;
 
 import java.util.*;
 
-public class Ex007 {
+public class Ex007_iterator {
     public static void main(String[] args) {
         List<Integer> list = List.of(1, 12, 123, 1234, 12345);
 

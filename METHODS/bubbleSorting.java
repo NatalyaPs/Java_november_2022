@@ -20,6 +20,7 @@ public class bubbleSorting {
         return a;
     }
 
+    // или с пользовательским вводом:
 public static void main (String[] args)  {
         Scanner scanner = new Scanner(System.in);
         System.out.printf("Укажите длину массива: ");

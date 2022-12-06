@@ -1,6 +1,6 @@
 package lec_03;
 
-public class Ex001 {
+public class Ex001_array {
     static int[] AddItemInArray(int[] array, int item) {
         int length = array.length;
         

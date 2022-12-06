@@ -3,7 +3,7 @@ package lec_03;
 import java.util.Arrays;
 import java.util.List;
 
-public class Ex005 {
+public class Ex005_StringBuilder {
     public static void main(String[] args) {
         StringBuilder day = new StringBuilder("28");
         StringBuilder month = new StringBuilder("9");
