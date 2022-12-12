@@ -1,0 +1,546 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch hw_5_2_employees_repeats_sort",
+            "request": "launch",
+            "mainClass": "home_work_05.hw_5_2_employees_repeats_sort",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_5_3_pyramid_sorting",
+            "request": "launch",
+            "mainClass": "home_work_05.hw_5_3_pyramid_sorting",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_5_1_phone_book_hashMap",
+            "request": "launch",
+            "mainClass": "home_work_05.hw_5_1_phone_book_hashMap",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem_5_1_breckets",
+            "request": "launch",
+            "mainClass": "sem_05.sem_5_1_breckets",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem_5_1_isIsomorph_2",
+            "request": "launch",
+            "mainClass": "sem_5.sem_5_1_isIsomorph_2",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem_5_1_isIsomorph",
+            "request": "launch",
+            "mainClass": "sem_5.sem_5_1_isIsomorph",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem_5_1_",
+            "request": "launch",
+            "mainClass": "sem_5.sem_5_1_",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem_4_2_string_revers_revert",
+            "request": "launch",
+            "mainClass": "sem_04.sem_4_2_string_revers_revert",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem_4_1_text_num_2",
+            "request": "launch",
+            "mainClass": "sem_04.sem_4_1_text_num_2",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem_4_1_text_num",
+            "request": "launch",
+            "mainClass": "sem_04.sem_4_1_text_num",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch algorithm_speed",
+            "request": "launch",
+            "mainClass": "METHODS.algorithm_speed",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch bubbleSorting",
+            "request": "launch",
+            "mainClass": "METHODS.bubbleSorting",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch max_min",
+            "request": "launch",
+            "mainClass": "METHODS.max_min",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch mergeSort_2",
+            "request": "launch",
+            "mainClass": "METHODS.mergeSort_2",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch mergeSortingBEST",
+            "request": "launch",
+            "mainClass": "METHODS.mergeSortingBEST",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch random_list",
+            "request": "launch",
+            "mainClass": "METHODS.random_list",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch scanner",
+            "request": "launch",
+            "mainClass": "METHODS.scanner",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch time",
+            "request": "launch",
+            "mainClass": "METHODS.time",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_1_1_summ_factor",
+            "request": "launch",
+            "mainClass": "home_work_01.hw_1_1_summ_factor",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_1_2_prime_nambers",
+            "request": "launch",
+            "mainClass": "home_work_01.hw_1_2_prime_nambers",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_1_3_calculator",
+            "request": "launch",
+            "mainClass": "home_work_01.hw_1_3_calculator",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_2_1_string_json_SQL",
+            "request": "launch",
+            "mainClass": "home_work_02.hw_2_1_string_json_SQL",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_2_2_sort_log",
+            "request": "launch",
+            "mainClass": "home_work_02.hw_2_2_sort_log",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_2_3_list_of_studets",
+            "request": "launch",
+            "mainClass": "home_work_02.hw_2_3_list_of_studets",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_3_1_merge_sort",
+            "request": "launch",
+            "mainClass": "home_work_03.hw_3_1_merge_sort",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_3_2_delete_even_numbers",
+            "request": "launch",
+            "mainClass": "home_work_03.hw_3_2_delete_even_numbers",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_3_3_min_max_mean",
+            "request": "launch",
+            "mainClass": "home_work_03.hw_3_3_min_max_mean",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_4_1_linkedList_revers",
+            "request": "launch",
+            "mainClass": "home_work_04.hw_4_1_linkedList_revers",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_4_2_linkedList_queue",
+            "request": "launch",
+            "mainClass": "home_work_04.hw_4_2_linkedList_queue",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch lec_01_",
+            "request": "launch",
+            "mainClass": "lec_01.lec_01_",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch lec_01_array",
+            "request": "launch",
+            "mainClass": "lec_01.lec_01_array",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch lec_01_format",
+            "request": "launch",
+            "mainClass": "lec_01.lec_01_format",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch lec_01_getData",
+            "request": "launch",
+            "mainClass": "lec_01.lec_01_getData",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch lec_01_working_with_files",
+            "request": "launch",
+            "mainClass": "lec_01.lec_01_working_with_files",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex000_lecture_StringBuilder_time",
+            "request": "launch",
+            "mainClass": "lec_02.Ex000_lecture_StringBuilder_time",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex002_fileSystemDemo",
+            "request": "launch",
+            "mainClass": "lec_02.Ex002_fileSystemDemo",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex003_tryDemo",
+            "request": "launch",
+            "mainClass": "lec_02.Ex003_tryDemo",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex004_bFile",
+            "request": "launch",
+            "mainClass": "lec_02.Ex004_bFile",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex005_Logger",
+            "request": "launch",
+            "mainClass": "lec_02.Ex005_Logger",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch lec_02_",
+            "request": "launch",
+            "mainClass": "lec_02.lec_02_",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex000",
+            "request": "launch",
+            "mainClass": "lec_03.Ex000",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex001_array",
+            "request": "launch",
+            "mainClass": "lec_03.Ex001_array",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex002array_list_",
+            "request": "launch",
+            "mainClass": "lec_03.Ex002array_list_",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex003",
+            "request": "launch",
+            "mainClass": "lec_03.Ex003",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex004",
+            "request": "launch",
+            "mainClass": "lec_03.Ex004",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex005_StringBuilder",
+            "request": "launch",
+            "mainClass": "lec_03.Ex005_StringBuilder",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex006_copy_character",
+            "request": "launch",
+            "mainClass": "lec_03.Ex006_copy_character",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex007_iterator",
+            "request": "launch",
+            "mainClass": "lec_03.Ex007_iterator",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex000_PriorityQueue",
+            "request": "launch",
+            "mainClass": "lec_04.Ex000_PriorityQueue",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex001_LinkedList_add",
+            "request": "launch",
+            "mainClass": "lec_04.Ex001_LinkedList_add",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex002_queue",
+            "request": "launch",
+            "mainClass": "lec_04.Ex002_queue",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex003_deque",
+            "request": "launch",
+            "mainClass": "lec_04.Ex003_deque",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex004_stack",
+            "request": "launch",
+            "mainClass": "lec_04.Ex004_stack",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex005_stack_Integer",
+            "request": "launch",
+            "mainClass": "lec_04.Ex005_stack_Integer",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex001_HashMap",
+            "request": "launch",
+            "mainClass": "lec_05.Ex001_HashMap",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex002_HashMapEntry",
+            "request": "launch",
+            "mainClass": "lec_05.Ex002_HashMapEntry",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex003_HashMapBoost",
+            "request": "launch",
+            "mainClass": "lec_05.Ex003_HashMapBoost",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex004_TreeMap",
+            "request": "launch",
+            "mainClass": "lec_05.Ex004_TreeMap",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex005_LinkedHashMap",
+            "request": "launch",
+            "mainClass": "lec_05.Ex005_LinkedHashMap",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex006_HashTable",
+            "request": "launch",
+            "mainClass": "lec_05.Ex006_HashTable",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex007_hashCode",
+            "request": "launch",
+            "mainClass": "lec_05.Ex007_hashCode",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem02_1_c1c2",
+            "request": "launch",
+            "mainClass": "sem_02.sem02_1_c1c2",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem02_2_compress_string",
+            "request": "launch",
+            "mainClass": "sem_02.sem02_2_compress_string",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem02_3_palindrom",
+            "request": "launch",
+            "mainClass": "sem_02.sem02_3_palindrom",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem02_4_test100",
+            "request": "launch",
+            "mainClass": "sem_02.sem02_4_test100",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_2_1",
+            "request": "launch",
+            "mainClass": "sem_03.hw_2_1",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem03_0_equals_string",
+            "request": "launch",
+            "mainClass": "sem_03.sem03_0_equals_string",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem03_1_list_sort_corparator",
+            "request": "launch",
+            "mainClass": "sem_03.sem03_1_list_sort_corparator",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem03_2_list_planets_count",
+            "request": "launch",
+            "mainClass": "sem_03.sem03_2_list_planets_count",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem03_3_list_strin_int",
+            "request": "launch",
+            "mainClass": "sem_03.sem03_3_list_strin_int",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem03_4_list_arrayList_string",
+            "request": "launch",
+            "mainClass": "sem_03.sem03_4_list_arrayList_string",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem_4_0_time_ArrayList_LinkedList",
+            "request": "launch",
+            "mainClass": "sem_04.sem_4_0_time_ArrayList_LinkedList",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2",
+            "request": "launch",
+            "mainClass": "sem_5.Ex2",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_1_time_name",
+            "request": "launch",
+            "mainClass": "task_1_time_name",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_2_array10110",
+            "request": "launch",
+            "mainClass": "task_2_array10110",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_3_array_val3",
+            "request": "launch",
+            "mainClass": "task_3_array_val3",
+            "projectName": "Tasks_45ac5e19"
+        }
+    ]
+}

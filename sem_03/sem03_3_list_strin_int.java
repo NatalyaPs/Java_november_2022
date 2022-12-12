@@ -26,7 +26,7 @@ public class sem03_3_list_strin_int {
         list.add(55875);
 
         for (int i = 0; i < list.size(); i++) {
-            if(list.get(i)instanceof Integer){  // instanceof - значит: "если является объектом класса" 
+            if(list.get(i)instanceof Integer){  // instanceof - значит: "если является объектом класса ..." 
                 list.remove(i);
                 i--;  //  перешагиваем назад, т.к после удаения эл-та все эл-ты списка сдвигаются влево, а мы еще делаем след шаг в цикле(i++) вправо, поэтому надо вернуться назад, чтоб не перепрыгивать через элемент. Делаем i--
             }

@@ -9,33 +9,34 @@
 // Output: true
 
 
-package sem_5;
+package sem_05;
 
 import java.util.*;
 
-public class Ex2{
+public class sem_5_1_isIsomorph{
     
     public static void main(String[] args) {
-        String a = "foo";
-        String b = "bar";
+        String a = "paper";
+        String b = "title";
         
         System.out.println(isIsomorph(a, b));
     }
     public static boolean isIsomorph(String a, String b) {
-        HashMap <Character, Character> map = new HashMap<>();
+        HashMap <Character, Character> map = new HashMap<>(); // создали словарь
         if (a.length() != b.length()){
             return false;
         }
+
+        // ключи- буквы 1го слова, знаения - буквы второго слова
         for (int i = 0; i < a.length(); i++) {
-            
-            if (map.containsKey(a.charAt(i))){
+            if (map.containsKey(a.charAt(i))){ // проверяем, есть ли такой ключ containsKey
                 
-                if(!map.get(a.charAt(i)).equals(b.charAt(i))){
+                if(!map.get(a.charAt(i)).equals(b.charAt(i))){ // если не совпадает значение в ключе, то ложь
                    return false;
                 }
                 
             }
-            map.put(a.charAt(i), b.charAt(i));
+            map.put(a.charAt(i), b.charAt(i)); // добавляем пару ключ:значение
         }
         return true;
     }
