@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "home_work_06.Main",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shop",
+            "request": "launch",
+            "mainClass": "home_work_06.Shop",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem_6_0_newSet",
+            "request": "launch",
+            "mainClass": "sem_06.sem_6_0_newSet",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task2_cat_2",
+            "request": "launch",
+            "mainClass": "sem_06_task_2_b_cat.Task2_cat_2",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task2_cat",
+            "request": "launch",
+            "mainClass": "sem_06_task_2_a_cat.Task2_cat",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem_6_1_set_percent_unicum",
+            "request": "launch",
+            "mainClass": "sem_06.sem_6_1_set_percent_unicum",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClientCode",
+            "request": "launch",
+            "mainClass": "lec_06_OOP.ClientCode",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_002MathSet",
+            "request": "launch",
+            "mainClass": "Ex_002MathSet",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_002MathSet",
+            "request": "launch",
+            "mainClass": "lec_06.Ex_002MathSet",
+            "projectName": "Tasks_45ac5e19"
+        },
+        {
+            "type": "java",
             "name": "Launch hw_5_2_employees_repeats_sort",
             "request": "launch",
             "mainClass": "home_work_05.hw_5_2_employees_repeats_sort",
