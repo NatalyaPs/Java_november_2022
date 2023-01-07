@@ -3,14 +3,14 @@ package sem_06_task_2_a_cat;
 public class Cat { // класс с полями
     // сначала пишем поля
     private String name;
-    private String owner;
-    private String breed;
-    private float weight;
+    private String owner; // хозяин
+    private String breed;  // порода
+    private float weight;  // вес
 
     // затем конструктор
     // конструктор для инициализации - передаем поля из класса, но коллекции не передаются
     // для получения можно нажать на лампочку и выбрать Сгенерировать конструктор или Ctrl + .
-    // если добавили поле в класс, то конструктор тоже надо обновить (создать новый, например)
+    // если добавили поле в класс, то конструктор тоже надо обновить (создать новый, удалив старый)
     public Cat(String name, String owner, String breed, float weight) {
         this.name = name;
         this.owner = owner;
@@ -19,7 +19,7 @@ public class Cat { // класс с полями
     }
 
     // геттеры и сеттеры
-    // так же на лампочку нажимает и создаем
+    // так же на лампочку нажимаем и создаем
     // нужны,ч.б. пользоваться приватными полями
     public String getName() {
         return name;

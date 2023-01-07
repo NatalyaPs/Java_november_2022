@@ -12,7 +12,7 @@ public class Seminar1_Task1 {
         System.out.println("Привет, " + name + "!");
     }
     public static String scannerText() {
-        Scanner iScanner = new Scanner(System.in);
+        Scanner iScanner = new Scanner(System.in, "cp866");  //  "UTF-8" - попробовала добавить кодировку, ч.б. можно было писать на кириллице
         System.out.println("Представьтесь пожалуйста: ");
         String word = iScanner.nextLine();
         iScanner.close();

@@ -9,8 +9,8 @@ public class Ex002_fileSystemDemo {
         System.out.println(f3.getAbsolutePath());
 
         System.out.println(pathFile);
-        File f1 = new File("file.txt");
-        File f2 = new File("/Users/sk/vscode/java_projects/file.txt");
+        File f1 = new File("file.txt");  // относительный путь ?
+        File f2 = new File("/Users/sk/vscode/java_projects/file.txt"); // абсолютный путь ?
         System.out.println(f1.getAbsolutePath());
         System.out.println(f2.getAbsolutePath());
     }

@@ -22,7 +22,11 @@ public class hw_4_2_linkedList_queue {
         System.out.println();
         System.out.printf("вернули и удалили 1-й элемент: %s", dequeue(trainingList));
         System.out.println();
-        System.out.printf("вернули 1-й элемент, не удаляя: %s", dequeue(trainingList));
+        System.out.printf("проверяем наш LinkedList: %s", trainingList);
+        System.out.println();
+        System.out.printf("вернули 1-й элемент, не удаляя: %s", first(trainingList));
+        System.out.println();
+        System.out.printf("проверяем наш LinkedList: %s", trainingList);
     }   
 
     // помещает элемент в конец очереди

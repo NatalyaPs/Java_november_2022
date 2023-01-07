@@ -52,10 +52,10 @@ public class lec_01_ { // class набрать
         System.out.println(msg); // Cтрока
 
         // неявная типизация + внизу еще метод для определения к какоу классу относится
-        var i = 123;
+        int i = 123;
         System.out.println(i); // 123
         System.out.println(getType(i)); // Integer
-        var j = 123.456;
+        double j = 123.456;
         System.out.println(j); // 123.456 
         System.out.println(getType(j)); // Double
         j = 1022;
@@ -176,7 +176,7 @@ public class lec_01_ { // class набрать
         System.out.println();
 
         //Scanner iScanner = new Scanner(System.in);
-        System.out.printf("int a: "); // проверка на то, что пользователь вводит целое число
+        System.out.printf("int a: "); // проверка на то, что пользователь вводит целое число  //  ПРОВЕРКА !!!
         boolean flag = iScanner.hasNextInt(); // has - значит "если возможно считать введенное число..."
         System.out.println(flag);       
         int iе = iScanner.nextInt();
@@ -306,13 +306,12 @@ public class lec_01_ { // class набрать
                 case 1:
                     text = "Autumn";
                     break;
-            // switch (mounth) {
-            //         case 2:
-            //             text = "summer";
-            //             break;
-            //     default:
-            //         text = "mistake";
-            //         break;
+                case 2:
+                    text = "summer";
+                    break;
+                default:
+                    text = "mistake";
+                    break;
             }
             System.out.println(text);
             //iScanner.close();

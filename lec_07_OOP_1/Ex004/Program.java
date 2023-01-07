@@ -52,7 +52,7 @@ public class Program {
         robot3.power();
         robot3.work();
         robot3.power();
-        robot3.work();
+        robot3.work(); // не работает, т.к. система выключена
 
         robot3.power();
         

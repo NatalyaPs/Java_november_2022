@@ -1,5 +1,10 @@
 package lec_07_OOP_1.Ex005;
 
+// ПРИМЕР БЕЗ НАСЛЕДОВАНИЯ - так делать не надо
+// КЛАССЫ ЖРЕЦОВ И МАГОВ ПРАКТИЧЕСКИ КОПИРУЮТ ДРУГ ДРУГА
+// ОТЛИЧИЯ ТОЛЬКО В МАННЕ И ЭЛИКСИРЕ
+// НАРУШАЕМ ПРИНЦИП DRY 
+
 public class Program {
     public static void main(String[] args) {
         Magician hero1 = new Magician();

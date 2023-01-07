@@ -9,11 +9,11 @@ public class Ex003_tryDemo {
             String pathFile = pathProject.concat("/file.txt");
             File file = new File(pathFile);
 
-            if (file.createNewFile()) {
+            if (file.createNewFile()) { // если возвращает истину
                 System.out.println("file.created");
             }
             else {
-                System.out.println("file.existed");
+                System.out.println("file.existed"); // этот файл уже был найден и работать с ним, возможно, надо по-другому
                 FileWriter fileWriter = new FileWriter(file, true);
                 fileWriter.write("new line");
 

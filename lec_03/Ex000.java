@@ -57,15 +57,15 @@ public static void main2(String[] args) {
 
 // добавление элемента через отдельный метод:
 //======================================
-public class Ex01_object {
-   static int[] AddItem(int[] array, int item) {
+public static class Ex01_object {    ///  public class Ex01_object {   => добавила static , т.к. иначе показывал ошибку в нижних статичксих методах
+   static int[] AddItem(int[] array, int item) {    // static int[] AddItem(int[] array, int item) 
        int length = array.length;
        int[] temp = new int[length + 1];
        System.arraycopy(array, 0, temp, 0, length);
        temp[length] = item; // добавляем новый элемент в хвост массива
        return temp;
    }
-   public static void main3(String[] args) {
+   public static void main3(String[] args) {   // public static void main3(String[] args) 
        int[] a = new int[] { 0, 9 };
        for (int i : a) { System.out.printf("%d ", i); }
        a = AddItem(a, 2);
@@ -203,7 +203,7 @@ ArrayList<Integer> list4 = new ArrayList<>(list3);
          System.out.println(list1); //[S, e, r]
          list1.remove(1); 
          System.out.println(list1); //[S, r]
-            List<Character> list2 = List.copyOf(list1);}
+         List<Character> list2 = List.copyOf(list1);}
    
 
    // ИТЕРАТОР

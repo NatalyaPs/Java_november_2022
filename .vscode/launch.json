@@ -8,6 +8,272 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "home_work_07_OOP_01.Main",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "home_work_06.Main",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClientCode",
+            "request": "launch",
+            "mainClass": "lec_06_OOP.ClientCode",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_002MathSet",
+            "request": "launch",
+            "mainClass": "lec_06.Ex_002MathSet",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_5_2_employees_repeats_sort",
+            "request": "launch",
+            "mainClass": "home_work_05.hw_5_2_employees_repeats_sort",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_5_1_phone_book_hashMap",
+            "request": "launch",
+            "mainClass": "home_work_05.hw_5_1_phone_book_hashMap",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_4_2_linkedList_queue",
+            "request": "launch",
+            "mainClass": "home_work_04.hw_4_2_linkedList_queue",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch sem_5_1_isIsomorph",
+            "request": "launch",
+            "mainClass": "sem_05.sem_5_1_isIsomorph",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex005_Logger",
+            "request": "launch",
+            "mainClass": "lec_02.Ex005_Logger",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex004_bFile",
+            "request": "launch",
+            "mainClass": "lec_02.Ex004_bFile",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex001_stringsDemo",
+            "request": "launch",
+            "mainClass": "lec_02.Ex001_stringsDemo",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex002_fileSystemDemo",
+            "request": "launch",
+            "mainClass": "lec_02.Ex002_fileSystemDemo",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_1_3_calculator",
+            "request": "launch",
+            "mainClass": "home_work_01.hw_1_3_calculator",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_1_2_prime_nambers",
+            "request": "launch",
+            "mainClass": "home_work_01.hw_1_2_prime_nambers",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch hw_1_1_summ_factor",
+            "request": "launch",
+            "mainClass": "home_work_01.hw_1_1_summ_factor",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_3_array_val3",
+            "request": "launch",
+            "mainClass": "sem_01.task_3_array_val3",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_2_array10110",
+            "request": "launch",
+            "mainClass": "sem_01.task_2_array10110",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Task2_cat_2",
+            "request": "launch",
+            "mainClass": "sem_06_task_2_b_cat.Task2_cat_2",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "sem_07_OOP_1.Main",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_1_time_name",
+            "request": "launch",
+            "mainClass": "sem_01.task_1_time_name",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch lec_01_",
+            "request": "launch",
+            "mainClass": "lec_01.lec_01_",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch task_1_hello_date_time",
+            "request": "launch",
+            "mainClass": "sem_01.task_1_hello_date_time",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Seminar1_Task1",
+            "request": "launch",
+            "mainClass": "sem_01.Seminar1_Task1",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex007_iterator",
+            "request": "launch",
+            "mainClass": "lec_03.Ex007_iterator",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex000_lecture_StringBuilder_time",
+            "request": "launch",
+            "mainClass": "lec_02.Ex000_lecture_StringBuilder_time",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_001_hashSet",
+            "request": "launch",
+            "mainClass": "lec_06.Ex_001_hashSet",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "lec_07_OOP_1.Ex006.Program",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch algorithm_speed",
+            "request": "launch",
+            "mainClass": "METHODS.algorithm_speed",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex000",
+            "request": "launch",
+            "mainClass": "lec_03.Ex000",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch all_methods",
+            "request": "launch",
+            "mainClass": "METHODS.all_methods",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch random_list",
+            "request": "launch",
+            "mainClass": "METHODS.random_list",
+            "projectName": "Tasks_d26e4b10"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "sem_07_OOP_1.Main",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teams",
+            "request": "launch",
+            "mainClass": "lec_07_OOP_1.Ex006.Teams",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "lec_07_OOP_1.Ex006.Program",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "lec_07_OOP_1.Ex005.Program",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "lec_07_OOP_1.Ex004.Program",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "lec_07_OOP_1.Ex003.Program",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Homework",
+            "request": "launch",
+            "mainClass": "lec_08_OOP_2.Homework",
+            "projectName": "Tasks_34590822"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "home_work_06.Main",
             "projectName": "Tasks_34590822"
         },

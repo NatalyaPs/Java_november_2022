@@ -1,5 +1,9 @@
 package lec_07_OOP_1.Ex006;
 
+
+// смотрим коммментарии в классе магов
+
+
 public class Priest extends BaseHero {
 
     private int elixir;

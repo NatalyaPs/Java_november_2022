@@ -14,7 +14,8 @@ public class hw_3_2_delete_even_numbers {
 
         for (int i = 0; i < 10; i++) 
         {
-            list.add(random.nextInt(1, 100)); // 1-99
+            list.add(random.nextInt(100)); // 1-99
+            // list.add(random.nextInt(1, 100)); // 1-99
         }
             
         System.out.println(list);

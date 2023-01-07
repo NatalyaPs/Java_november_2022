@@ -15,7 +15,8 @@ public class hw_3_3_min_max_mean {
 
         for (int i = 0; i < n; i++) 
         {
-            list.add(random.nextInt(1, 11)); // 1-10
+            list.add(random.nextInt(11)); // 1-10
+            // list.add(random.nextInt(1, 11)); // 1-10
         }
             
         System.out.println(list);

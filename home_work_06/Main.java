@@ -41,13 +41,13 @@ public class Main {
         Map<String, String> filters = new HashMap<> ();  //  <String - требование, String - значение фильтра - если нет требования пользователя, то кладем сюда null>
     
         Scanner scanner = new Scanner (System.in);
-        String[] parameters = {"модель: Samsung, Aser, Apple или null", 
+        String[] parameters = {"модель: Samsung, Aser, Apple или null",   // показываем какой выбор
                                 "оперативная память: 16, 32, 64 или null", 
                                 "жесткий диск: 300, 500, 1000 или null", 
                                 "операционная система: Windows, Linux, macOS или null", 
                                 "цвет: black, white, grey или null"};
            
-        String[] getParameters = {"model", "ram", "hardDisk", "opSystem", "color"};                         
+        String[] getParameters = {"model", "ram", "hardDisk", "opSystem", "color"};        // ключ для Мар                 
     
         System.out.println("Заполните поля для выбора подходящей модели: ");
         for (int j = 0; j < getParameters.length; j++) {

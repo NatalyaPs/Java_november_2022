@@ -1,15 +1,15 @@
 package lec_02;
 
-import java.io.BufferedReader;
+// import java.io.BufferedReader;
 import java.io.File;
-import java.lang.System.Logger;
-import java.lang.System.Logger.Level;
-import java.util.logging.ConsoleHandler;
-import java.util.logging.SimpleFormatter;
-import java.util.logging.XMLFormatter;
+// import java.lang.System.Logger;
+// import java.lang.System.Logger.Level;
+// import java.util.logging.ConsoleHandler;
+// import java.util.logging.SimpleFormatter;
+// import java.util.logging.XMLFormatter;
 import java.io.IOException;
-import java.util.logging.*;
-import java.io.FileReader;
+// import java.util.logging.*;
+// import java.io.FileReader;
 
 public class lec_02_ {
     /**

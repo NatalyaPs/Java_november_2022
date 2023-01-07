@@ -4,15 +4,16 @@ import java.util.ArrayList;
 
 public class Robot3 {
 
-    enum State {
+    enum State {  // состояние: вкл, выкл
         On, Off
     }
 
-    private static int defaultIndex;
-    private static ArrayList<String> names;
+    // добавили пару статических полей
+    private static int defaultIndex;  //создаем дефолтный индекс для нумерации
+    private static ArrayList<String> names; // создаем коллекцию имен
 
     static {
-        defaultIndex = 1;
+        defaultIndex = 1; // начальный индекс
         names = new ArrayList<String>();
     }
 
@@ -30,28 +31,29 @@ public class Robot3 {
      * @param name  Имя робота !Не должно начинаться с цифры
      * @param level Уровень робота
      */
-    private Robot3(String name, int level) {
+    private Robot3(String name, int level) {  // private - скрываем от пользователя. Тогда ниже в конструкторах для пользователя будет возможность либо указать одно имя или вообще без параметров. Система все сделает сама
         System.out.println(Character.isDigit(name.charAt(0)));
-        if ((name.isEmpty()
-                || Character.isDigit(name.charAt(0)))
-                || Robot3.names.indexOf(name) != -1)
+        if ((name.isEmpty() // если имя пустое
+                || Character.isDigit(name.charAt(0))) // или начинается с цифры
+                || Robot3.names.indexOf(name) != -1)  // или было задано раннее
 
-        {
+        {   // тогда придумаем дефолтное имя
             this.name =
              String.format("DefaultName_%d", defaultIndex++);
-        } else {
+        } else {  // или имя пользователя
             this.name = name;
         }
 
-        Robot3.names.add(this.name);
-        this.level = level;
-        this.state = State.Off;
+        Robot3.names.add(this.name);    // и добавляем это(см выше) имя в коллекцию
+        this.level = level;    // инициализация уровня
+        this.state = State.Off;    // инициал-я начального состояния. по умолчанию выкл.
 
     }
 
     // #region другие конструкторы
+    // но это нерпавильно, т.к. практически повторяют, но с малейшими изменениями. Ниже этих примеров смотрим
 
-    // public Robot3(String name)
+    // public Robot3(String name)    // для примера конструктор, что имя робота имеет только 1 аргумент
     // {
     // if ((name.isEmpty()
     // || Character.isDigit(name.charAt(0)))
@@ -61,15 +63,15 @@ public class Robot3 {
     // else { this.name = name; }
 
     // Robot3.names.add(this.name);
-    // this.level = 1;
+    // this.level = 1;            //  отличие
     // this.state = State.Off;
     // }
 
-    // public Robot3()
+    // public Robot3()      // или конструктор без параметров
     // {
-    // this.name = String.format("DefaultName_%d", defaultIndex++);
+    // this.name = String.format("DefaultName_%d", defaultIndex++);  // по умолчанию сразу присваивается дефолтное имя
     // Robot3.names.add(this.name);
-    // this.level = 1;
+    // this.level = 1;     // автоматически 
     // this.state = State.Off;
     // }
 
@@ -77,12 +79,12 @@ public class Robot3 {
 
     // #region правильные конструкторы
 
-    public Robot3(String name) {
+    public Robot3(String name) {  // конструктор с одним параметром вызывает имеющийся конструктор с 2мя аргументами
         this(name, 1);
     }
 
-    public Robot3() {
-        this("");
+    public Robot3() { // конструктор без параметров, который вызывает конструктор с 1 параметром
+        this(""); // вызывая в качестве аргумента пустую строку
     }
 
     // #endregion
@@ -90,11 +92,11 @@ public class Robot3 {
     // Методы вкл\выкл подсистем
 
     public void power() {
-        if (this.state == State.Off) {
-            this.powerOn();
-            this.state = State.On;
+        if (this.state == State.Off) { // если с-ма выключена,
+            this.powerOn();  // нужно вызвать логику включения
+            this.state = State.On;  // и поменять состояние нат то, что робот включен
         } else {
-            this.powerOff();
+            this.powerOff(); // если робот включен, то выключаем
             this.state = State.Off;
         }
         System.out.println();
@@ -152,8 +154,8 @@ public class Robot3 {
 
     /** Работа */
     public void work() {
-        if (this.state == State.On) {
-            System.out.println("Working...");
+        if (this.state == State.On) {     // если включено
+            System.out.println("Working...");    // то работаем
         }
     }
 

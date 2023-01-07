@@ -14,7 +14,8 @@ public class hw_4_1_linkedList_revers {
         Random random = new Random();
 
         for (int i = 0; i < n; i++) {
-            ll_source.add(random.nextInt(1, 100));
+            ll_source.add(random.nextInt(100));
+            // ll_source.add(random.nextInt(1, 100));
         }
         System.out.println("Исходный список: " + ll_source);
 

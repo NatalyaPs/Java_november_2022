@@ -1,11 +1,11 @@
 package home_work_06;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
+// import java.util.ArrayList;
+// import java.util.HashMap;
+// import java.util.List;
+// import java.util.Map;
+// import java.util.Scanner; 
+// import java.util.Set;
 
 public class Laptop {
     private String model; // Aser, Samsung, Apple

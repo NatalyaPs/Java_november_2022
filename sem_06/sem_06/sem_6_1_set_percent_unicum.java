@@ -12,7 +12,7 @@ import java.util.Set;
 
 public class sem_6_1_set_percent_unicum {
     
-    private static int[] fillArray (int capacity, int maxRange){
+    private static int[] fillArray (int capacity, int maxRange){   // Заполнить массив (вместимость, Максимальный диапазон)
         int[] array  = new int[capacity];
         Random random = new Random();
         for(int i = 0; i < array.length; i++){
@@ -29,10 +29,11 @@ public class sem_6_1_set_percent_unicum {
         int count = set.size();
         System.out.println(set); // для проверки какие там числа
         return count * 100.0f / array.length; // 100.0f - константа для получения числа float
+        // return (float)count * 100 / array.Length;
     }
     
     public static void main(String[] args) {
-        int[] array = fillArray(100, 25);
+        int[] array = fillArray(100, 25);  // для проверки 100 элементов
         System.out.println(Arrays.toString(array));
 
         float persent = calcPercent(array);

@@ -12,10 +12,10 @@ public class Cat_alex {
     private String breed;
     private String color;
     private LocalDate birthDate;
-    private List<Award> awards; // отдельный класс с наградами  // коллекция => во множественном числе - Avards
+    private List<Award> awards; // отдельный КЛАСС с наградами  // коллекция => во множественном числе - Avards
     private String owner;
 
-    public Cat_alex(String name, String breed, String color, LocalDate birthDate, String owner) {
+    public Cat_alex(String name, String breed, String color, LocalDate birthDate, String owner) { // здесь в аргументах awards убрали, но инициализировали ниже все равно, ч.б.не было null
         this.name = name;
         this.breed = breed;
         this.color = color;
@@ -24,7 +24,8 @@ public class Cat_alex {
         this.awards = new ArrayList<>(); // лучше пустая коллекция, чем  null // инициализация - создаем новый лист
     }
 
-    // для коллекций не делают get, set, т.к. посторонний может получить доступ к коллекции
+    // для коллекций не делают get, set, т.к. посторонний может получить доступ к коллекции   !!!!!
+
     public String getName() {
         return name;
     }
@@ -45,7 +46,7 @@ public class Cat_alex {
         return owner;
     }
 
-    // увидеть награды
+    // увидеть информ. о коте и награды
     @Override
     public String toString() {
         return "Cat{" +
@@ -60,6 +61,6 @@ public class Cat_alex {
 
     // метод для добавления наград.  Разрешено только добавлять награду.
     public void addAward(Award award) { // 1 награда
-        awards.add(award); // добавить в коллекцию
+        awards.add(award); // добавить в коллекцию  // здесь не обязательно писать this.awards.add(award). Java сама угадывает, что здесь this, так же, как и в get-терах
     }
 }

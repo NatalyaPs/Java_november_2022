@@ -2,11 +2,8 @@ package sem_06_task_2_b_cat;
 
 import java.time.LocalDate;
 import java.time.Month;
-
-
 // import sem_06_task_2_b_cat.Award;
 // import sem_06_task_2_b_cat.Cat_alex;
-
 
 /*
 1. Продумайте структуру класса Кот. Какие поля и методы будут актуальны для приложения, которое является

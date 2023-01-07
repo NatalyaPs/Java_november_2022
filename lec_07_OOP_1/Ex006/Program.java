@@ -12,9 +12,9 @@ public class Program {
         System.out.println(hero3.getInfo());
 
         hero3.GetDamage(hero2.Attack());
-        hero3.GetDamage(hero3.Attack());
-        System.out.println(hero3.getInfo());
+        hero3.GetDamage(hero3.Attack());  //  атаковал сам себя, т.е. инкапсуляция не очень продумана
         System.out.println(hero2.getInfo());
-        //hero3.GetDamage(hero3.Attack());
+        System.out.println(hero3.getInfo());
+       
     }
 }

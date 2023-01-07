@@ -16,7 +16,7 @@ public class KuklachevCat {
         this.breed = breed;
         this.color = color;
         this.birthDate = birthDate;
-        this.action = new ArrayList<>(); // в конструктор не включен в (), а записывается ниже отдельной функцией
+        this.action = new ArrayList<>(); // в конструктор не включен в (аргументы), а записывается ниже отдельной функцией
     }
 
     public String getName() {

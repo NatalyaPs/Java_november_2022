@@ -1,12 +1,12 @@
 package sem_06_task_2_b_cat;
 
-import java.util.List;
+// import java.util.List;
 
 // к заданию про кошек Куклачева
 
 // действия
 public class Action {
-    private String trickName;
+    private String trickName;  
     private String coach;
 
     // трюки
