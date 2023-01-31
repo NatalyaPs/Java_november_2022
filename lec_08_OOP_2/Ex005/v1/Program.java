@@ -24,10 +24,10 @@ public class Program {
 
         var h = team1.get(0);
 
-        if (h instanceof Warrior) {
+        if (h instanceof Warrior) {  //  воин
             ((Warrior) h).attack(null);
         }
-        else if (h instanceof Healer) {
+        else if (h instanceof Healer) {   // целитель
             ((Healer) h).healing(null);
         } else {
             //....
@@ -40,14 +40,14 @@ public class Program {
         team2.add(new Paladin());
         team2.add(new Knight());
 
-        team2.get(0).attack(null);
+        team2.get(0).attack(null); // т.к. в этом списке только войны, то проверять на соответствие не надо, а можно сразу вызывать метод атаки
 
-        List<Healer> team3 = new ArrayList<>();
+        List<Healer> team3 = new ArrayList<>(); // лекарь
         //team2.add(new Paladin());
         team3.add(new Druid());
         team3.add(new Shaman());
 
-        team3.get(0).healing(null);
+        team3.get(0).healing(null);  // тоже можно без проверки, т.к. все лекари - метод лечения
 
 
         //#endregion

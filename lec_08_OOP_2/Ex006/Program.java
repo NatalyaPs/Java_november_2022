@@ -15,7 +15,7 @@ public class Program {
         notes.SaveAs("file2", new Md());
         notes.SaveAs("file3", new Doc());
 
-
+        System.out.println("     !!!      сохранены 3 файла: file1, file2, file2");
 
     }
 }

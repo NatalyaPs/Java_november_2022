@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Robot3 {
 
-    enum State {  // состояние: вкл, выкл
+    enum State {  // состояние: вкл, выкл (enum - состояние)
         On, Off
     }
 
@@ -12,6 +12,7 @@ public class Robot3 {
     private static int defaultIndex;  //создаем дефолтный индекс для нумерации
     private static ArrayList<String> names; // создаем коллекцию имен
 
+    // статический инициализатор
     static {
         defaultIndex = 1; // начальный индекс
         names = new ArrayList<String>();
@@ -23,10 +24,11 @@ public class Robot3 {
     /** Имя робота */
     private String name;
 
+    /**состояние  */   // см выше  -> enun State
     private State state;
 
     /**
-     * Создание робота
+     * Создание робота. Конструктор
      * 
      * @param name  Имя робота !Не должно начинаться с цифры
      * @param level Уровень робота
@@ -38,8 +40,7 @@ public class Robot3 {
                 || Robot3.names.indexOf(name) != -1)  // или было задано раннее
 
         {   // тогда придумаем дефолтное имя
-            this.name =
-             String.format("DefaultName_%d", defaultIndex++);
+            this.name = String.format("DefaultName_%d", defaultIndex++);
         } else {  // или имя пользователя
             this.name = name;
         }

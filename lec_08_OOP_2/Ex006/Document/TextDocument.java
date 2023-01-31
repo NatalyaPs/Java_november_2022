@@ -10,7 +10,7 @@ public class TextDocument {
     public TextDocument(String data) {
         this();
         addAllText(data);        
-    }
+    } 
 
     public void addAllText(String text){
         sb.append(text + "\n");

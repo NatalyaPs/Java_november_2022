@@ -1,4 +1,4 @@
-package Lesson_10.Ex004.V3;
+package Ex004.V3;
 
 public class Program {
     public static void main(String[] args) {
@@ -18,7 +18,8 @@ public class Program {
             System.out.println(videoStorage.get(index));
         }
         
-        //#region проблема решена
+        //#region   проблема решена                               -   можем добавлять только аудио и видео контент
+        //          ----------------
 
         // audioStorage.add(new VideoContent("jfvjdhdf7768.mp4")); 
         // videoStorage.add(new AudioContent("Дорожка 005.wav")); 
@@ -26,7 +27,7 @@ public class Program {
         //#endregion
 
         //#region  проблема решена
-        //
+        //         ---------------
         
         // Repository<String> stringRepository = new Repository<>("stringRepository");
         // stringRepository.add("Кринж");

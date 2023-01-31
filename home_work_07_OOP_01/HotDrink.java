@@ -52,7 +52,7 @@ public class HotDrink extends Goods {
     }
 
     @Override
-    public String toString() {
+    public String toString() {  // %s  super.toString(),
         return "HotDrink [" +
                 "name='" + name + '\'' +
                 ", price=" + price +

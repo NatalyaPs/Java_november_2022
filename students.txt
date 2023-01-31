@@ -1,0 +1,4 @@
+Ivan, Ivanov, MSU, IT, 1
+Sergey, Petrov, MSU, IT, 1
+Anna, Ejova, MSU, IT, 1
+Olge, Tinova, MSU, IT, 1

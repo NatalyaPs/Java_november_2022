@@ -33,7 +33,7 @@ public class all_methods {
         arr1[3] = 12; 
         System.out.println(arr1[3]); // 12
 
-        arr = new int[] { 1, 2, 3, 4, 5 };
+        int [] arr = new int[] { 1, 2, 3, 4, 5 };
         System.out.println(arr.length); // 5
 
         // многомерные. Цикл двумерный массив
@@ -57,9 +57,9 @@ public class all_methods {
         }   
 
         // типизация (продолжение)
-        static String getType(Object o){
-            return o.getClass().getSimpleName();
-        }
+        // static String getType(Object o) {
+        //     return o.getClass().getSimpleName();
+        // }
 
 
     }

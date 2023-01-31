@@ -3,7 +3,7 @@ package lec_08_OOP_2.Ex004;
 public class Dwarf extends Druid {
     
     public Dwarf(String name, int hp) {
-        super();
+        super(); // обращается к родительскому классу Друид
         System.out.println("Вызван Dwarf(String name, int hp)");
     }
 

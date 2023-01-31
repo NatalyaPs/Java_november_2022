@@ -1,3 +1,4 @@
+package Ex005;
 
 public class Ex002_MultiPair {
     public static void main(String[] args) {

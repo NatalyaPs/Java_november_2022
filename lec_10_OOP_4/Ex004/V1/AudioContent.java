@@ -1,6 +1,6 @@
-package Lesson_10.Ex004.V1;
+package Ex004.V1;
 
-public class AudioContent extends Content {
+public class AudioContent extends Content { // конкретный представитель
     public AudioContent(String name) {
         super(name);
     }

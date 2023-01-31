@@ -1,4 +1,4 @@
-package Lesson_10.Ex004.V4;
+package Ex004.V4;
 
 public class Program {
     public static void main(String[] args) {
@@ -29,6 +29,8 @@ public class Program {
             System.out.println(pTchaikovsky.get(index));
         }
 
+        //  попробовать реализовать метод слияния 
+        //  --------------------------------------
         // Repository<VideoContent> videoContent = new Repository<>("videoContent");
         // videoContent.add(new VideoContent("ВИДЕО 1"));
         // videoContent.add(new VideoContent("ВИДЕО 2"));

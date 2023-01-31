@@ -1,6 +1,6 @@
-package Lesson_10.Ex004.V1;
+package Ex004.V1;
 
-public abstract class Content {
+public abstract class Content { // базовый тип
     public String name;
 
     public Content(String name) {

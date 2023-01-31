@@ -1,10 +1,6 @@
 // архив выставки котов
-
-
 // ==================================
 //  НЕ ИСПОЛЬЗОВАН 
-
-
 // ============================== 
 
 
@@ -21,15 +17,15 @@ public class Cat_Iyrii {
     private float weight;
     private List<String> owners;
     private LocalDate birthDay;
-    private List<Award> awards;
+    private List<Award> awards; //// отдельный КЛАСС с наградами  // коллекция => во множественном числе - avards
 
-    public Cat_Iyrii(String name, String breed, float weight, List<String> owners, LocalDate birthDay) {
+    public Cat_Iyrii(String name, String breed, float weight, List<String> owners, LocalDate birthDay) {// здесь в аргументах awards убрали, но инициализировали ниже все равно, ч.б.не было null
         this.name = name;
         this.breed = breed;
         this.weight = weight;
         this.owners = owners;
         this.birthDay = birthDay;
-        this.awards = new ArrayList<>();
+        this.awards = new ArrayList<>();// лучше пустая коллекция, чем  null // инициализация - создаем новый лист
     }
 
     public String getName() {

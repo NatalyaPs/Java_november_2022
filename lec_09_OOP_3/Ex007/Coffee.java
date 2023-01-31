@@ -2,7 +2,7 @@ package lec_09_OOP_3.Ex007;
 
 import java.util.Iterator;
 
-public class Coffee extends Beverage {
+public class Coffee extends Beverage {     //  от напиток
 
     @Override
     public Iterator<Ingredient> iterator() {

@@ -2,7 +2,7 @@ package lec_09_OOP_3.Ex002;
 
 import java.util.Iterator;
 
-public class Worker implements Iterator<String> {
+public class Worker implements Iterator<String> {  // имплементируем интерфейс Итератор  (можно и Object, а не String)
     public String firstName;
     public String lastName;
     public int age;
@@ -23,7 +23,7 @@ public class Worker implements Iterator<String> {
         return String.format("%s %s", firstName, lastName);
     }
 
-    int index;
+    int index;   // для итерирования по полям (полей у нас 4)
 
     @Override
     public boolean hasNext() {

@@ -1,5 +1,8 @@
 package lec_09_OOP_3.Ex006;
 
+//  РАЗНЫЕ СПОСОБЫ СРАВНИВАНИЯ ОБЪЕКТОВ МЕЖДУ СОБОЙ 
+// ВНИМАНИЕ == ЭТО СРАВНИВАНИЕ ССЫЛОК (?)
+
 public class Program {
     public static void main(String[] args) {
 

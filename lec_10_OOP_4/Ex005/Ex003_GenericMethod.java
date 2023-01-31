@@ -1,3 +1,5 @@
+package Ex005;
+
 import java.util.Random;
 
 class Ex003_GenericMethod {

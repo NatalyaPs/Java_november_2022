@@ -48,6 +48,7 @@ public class Program {
         // Priest priest = new Priest();
         // System.out.println(priest.getInfo());
         // Druid druid = new Druid();
+        // //        BaseHero druid = new Druid(); // можем предыдущую строку переписать так. Тогда внизу тоже надо скастовать. См ниже
         // System.out.println(druid.getInfo());
         // Magician magician = new Magician();
         // System.out.println(magician.getInfo());
@@ -57,6 +58,7 @@ public class Program {
         // priest.attack(magician);
         // System.out.println(magician.getInfo());
         // druid.healing(magician);
+        // //         ((Druid)(druid)).healing(magician);  //  после переписывания (см.строку 51) меняем предыдущую строку - делаем приведение типа
         // System.out.println(magician.getInfo());
         // druid.healing(magician);
         // System.out.println(magician.getInfo());
@@ -74,7 +76,7 @@ public class Program {
         /*BaseHero*/
         Dwarf dwarf = new Dwarf();
         //dwarf.dwarf_method();
-        //((Dwarf)dwarf).dwarf_method();
+        //((Dwarf)dwarf).dwarf_method();               //   смотрим   )))
         System.out.println(dwarf.name);
         // #endregion
     }

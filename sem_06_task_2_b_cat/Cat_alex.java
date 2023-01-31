@@ -12,7 +12,7 @@ public class Cat_alex {
     private String breed;
     private String color;
     private LocalDate birthDate;
-    private List<Award> awards; // отдельный КЛАСС с наградами  // коллекция => во множественном числе - Avards
+    private List<Award> awards; // отдельный КЛАСС с наградами  // коллекция => во множественном числе - avards
     private String owner;
 
     public Cat_alex(String name, String breed, String color, LocalDate birthDate, String owner) { // здесь в аргументах awards убрали, но инициализировали ниже все равно, ч.б.не было null

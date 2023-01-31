@@ -26,12 +26,18 @@ public class Worker implements Comparable<Worker> {
     }
 
     @Override
-    public int compareTo(Worker o) {
-        if (this.age > o.age)
+    public int compareTo(Worker o) {    //  вариант метода по умолчанию
+        if (this.age > o.age)           //   сравниваем по возрасту. Можно переписать по зарплате, например 
             return 1;
         else if (this.age < o.age)
             return -1;
         else
             return 0;
     }
+
+    // @Override
+    // public int compareTo(Worker o) {        // можем переписать и так . Можно поменять на зарплату в эой же логике
+    //     return Integer.compare(this.age, age);
+    // }
+
 }

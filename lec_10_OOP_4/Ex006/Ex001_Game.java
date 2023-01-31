@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 
+// получается, что мы на олимпиаду можем отправить команду, где участники разных уровней. Надо исправить -> смотриим EX007: в классе Team меняем <T>
+
 public class Ex001_Game {
     public static void main(String[] args) {
         System.out.println("Ex001_Game");

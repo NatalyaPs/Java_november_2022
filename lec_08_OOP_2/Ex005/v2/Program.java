@@ -49,6 +49,10 @@ public class Program {
 
         team3.get(0).healing(null);
 
+        team3.add(new God());  // пробуем скастовать типы
+        ((Warrior)team3.get(2)).attack(team1.get(1));
+
+        System.out.println("код выполняется");
 
         //#endregion
 

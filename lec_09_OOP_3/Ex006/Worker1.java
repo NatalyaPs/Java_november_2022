@@ -1,5 +1,7 @@
 package lec_09_OOP_3.Ex006;
 
+// ПРЯМОЕ СРАВНИВАНИЕ    !!!!!!!!!!!!!!!!!!!!1
+
 public class Worker1 implements Comparable<Worker1> {
     public String firstName;
     public String lastName;

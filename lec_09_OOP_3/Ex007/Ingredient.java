@@ -13,7 +13,7 @@ public abstract class Ingredient {
     }
 
     @Override
-    public boolean equals(Object obj) {
+    public boolean equals(Object obj) {   // переопределяем equals
         Ingredient t = (Ingredient) obj;
         return t.brand == this.brand;
     }

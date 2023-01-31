@@ -6,7 +6,7 @@ import java.util.Random;
 // =====================================
 
 public class BaseHero {
-    protected static int number; // посчет героев
+    protected static int number; // посчет героев     // !!!!!!!!!   protected   -- значит, что доступен этому классу и класам-наследникам    !!!!!!!!!
     protected static Random r;
 
     protected String name;   //имя

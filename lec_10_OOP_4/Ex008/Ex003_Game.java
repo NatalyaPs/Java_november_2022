@@ -22,7 +22,7 @@ public class Ex003_Game {
         var o = new Olympiad<Intern>(team1, team2);
         o.start();
         
-        // #region
+        // #region                                //   не получися использовать другой тип. Только наследование от программистов
         // System.out.println("st1 vs st2");
         // var st1 = new Team<String>("string team 1");
         // var st2 = new Team<String>("string team 1");
@@ -78,7 +78,7 @@ class Principal extends Programmer {
     }
 }
 
-class Team<T extends Programmer> {
+class Team<T extends Programmer> {      //   делаем ограничение на типы. Только наследованные. Только в иерархии Программистов Например, Strig уже нельзя будет добавить
     private String name;
     private List<T> programmers;
 
@@ -102,7 +102,7 @@ class Team<T extends Programmer> {
 
 }
 
-class Olympiad<T extends Programmer> {
+class Olympiad<T extends Programmer> {       //   делаем ограничение на типы. Только наследованные. Только в иерархии Программистов Например, Strig уже нельзя будет добавить
 
     Team<T> team1, team2;
     Random r = new Random();

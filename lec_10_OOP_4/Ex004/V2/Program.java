@@ -1,8 +1,8 @@
-package Lesson_10.Ex004.V2;
+package Ex004.V2;
 
 public class Program {
     public static void main(String[] args) {
-        Repository<AudioContent> audioStorage = new Repository<>("audioStorage");
+        Repository<AudioContent> audioStorage = new Repository<>("audioStorage");   // обобщение АудиоКонтент
         audioStorage.add(new AudioContent("track_001.mp3"));
         audioStorage.add(new AudioContent("03 Дорожка 03.wma"));
         
@@ -10,7 +10,7 @@ public class Program {
             System.out.println(audioStorage.get(index));
         }
         
-        Repository<VideoContent> videoStorage = new Repository<>("videoStorage");
+        Repository<VideoContent> videoStorage = new Repository<>("videoStorage");    // оббощение видео контент
         videoStorage.add(new VideoContent("Новый фильм 1.wmv"));
         videoStorage.add(new VideoContent("Новый фильм 5.3gp")); 
 
@@ -18,7 +18,7 @@ public class Program {
             System.out.println(videoStorage.get(index));
         }
         
-        //#region проблема решена
+        //#region проблема решена   ?  +  - 
 
         // audioStorage.add(new VideoContent("jfvjdhdf7768.mp4")); 
         // videoStorage.add(new AudioContent("Дорожка 005.wav")); 
@@ -27,8 +27,10 @@ public class Program {
 
         //#region 
         // (нет)
-        
-        Repository<String> stringRepository = new Repository<>("stringRepository");
+
+        // в V3 исправляем возможность добавления других расширений (н-р String)
+        // =================================================================================
+        Repository<String> stringRepository = new Repository<>("stringRepository");   // если мы хотим работать только с аудио и видео контентом, то надо это исправить. Смотрим V3
         stringRepository.add("Кринж");
         stringRepository.add("Краш");
         stringRepository.add("Рофл");

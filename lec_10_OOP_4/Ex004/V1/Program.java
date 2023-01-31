@@ -1,4 +1,4 @@
-package Lesson_10.Ex004.V1;
+package Ex004.V1;
 
 public class Program {
     public static void main(String[] args) {
@@ -18,8 +18,9 @@ public class Program {
             System.out.println(videoStorage.get(index));
         }
 
-        //#region проблема
-        audioStorage.add(new VideoContent("jfvjdhdf7768.mp4")); 
+        //#region   ПРОБЛЕМА
+        // ====================     избавляемся от этой проблемы в V2
+        audioStorage.add(new VideoContent("jfvjdhdf7768.mp4")); // аудио (New видео) 
         videoStorage.add(new AudioContent("Дорожка 005.wav")); 
         //#endregion
 

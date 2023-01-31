@@ -43,7 +43,7 @@ public class BaseHero {
     }
 
     //перенесли метод атаки в базовый метод. В предыдущем примере Атака была описана в производных классах
-    public void Attack(BaseHero target) {    // аргумент - переменная базового типа
+    public void Attack(BaseHero target) {    // аргумент - переменная базового типа // target - цель
         int damage = BaseHero.r.nextInt(10, 20);  // случайное число урона
         target.GetDamage(damage);  // передаем нашей target) целt в кач-ве аргумента метода getDamage
     }

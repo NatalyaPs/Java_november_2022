@@ -1,10 +1,10 @@
-package Lesson_10.Ex004.V3;
+package Ex004.V3;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class Repository<T extends Content> {
+public class Repository<T extends Content> {   //  <T extends Content>  -  для того, ч.б. нельзя было добавлять расширения других типов !!! Т в иерархии НИЖЕ Контента
     List<T> ds;
 
     private String name;

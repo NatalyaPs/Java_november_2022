@@ -1,24 +1,24 @@
-package Lesson_10.Ex003;
+package Ex003;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class Methods {
-    public static Integer getElementFromIntegerCollection(List<Integer> col, int index) {
-        return col.get(index);
-    }
+//     public static Integer getElementFromIntegerCollection(List<Integer> col, int index) {
+//         return col.get(index);
+//     }
 
-    public static String getElementFromStringCollection(List<String> col, int index) {
-        return col.get(index);
-    }
+//     public static String getElementFromStringCollection(List<String> col, int index) {
+//         return col.get(index);
+//     }
 
-    public static Double getElementFromDoubleCollection(List<Double> col, int index) {
-        return col.get(index);
-    }
+//     public static Double getElementFromDoubleCollection(List<Double> col, int index) {
+//         return col.get(index);
+//     }
 
     // #region
-    public static <U> U getElementFromUCollection(List<U> col, int index) {
+    public static <U> U getElementFromUCollection(List<U> col, int index) { // тип <U> как обобщение, U getElementFromUCollection => U тип возвращаемых элементов метода 
         return col.get(index);
     }
 
@@ -27,7 +27,7 @@ public class Methods {
 
     //#region
 
-    public static <T1, T2> T2 put(T1 arg1, T2 arg2) {
+    public static <T1, T2> T2 put(T1 arg1, T2 arg2) {  // Т2 - возвращаемая переменная
         // Map<Integer,String> hm = new HashMap<>();
         // hm.put(key, value)
         return arg2;
